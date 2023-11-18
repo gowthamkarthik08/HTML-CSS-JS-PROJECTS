@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,600&family=Tinos:wght@400;700&display=swap');
+
+/* Global variables */
+:root {
+    --dark-primary: #1b1f24;
+    --primary: #12bdff;
+}
+
+body {
+
+    font-family: 'Tinos', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1b1f24;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: '';
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #fff;
+    /* padding: 20px; */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: var(--primary);
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--dark-primary);
+    border-color: #12bdff;
+    border-radius: 3px;
+    color: #12bdff;
+}
+
+header button {
+    cursor: pointer;
+}
+
+header p {
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #12bdff;
+    color: #fff;
+}
